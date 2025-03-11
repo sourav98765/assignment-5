@@ -23,8 +23,8 @@
                 Dev <span class="font-bold">Board</span>
             </h1>
         </div>
-         <!-- navber right side -->
-          <div class="flex gap-5">
+        <!-- navber right side -->
+        <div class="flex gap-5">
             <div class="flex items-center gap-5 bg-[#F4F7FF] roundes-3xl p-4 ">
                 <img src="./assets/checkbox.png" alt="">
                 <span id="completed-task-num" class="font-bold text-2xl">23</span>
@@ -32,9 +32,202 @@
             <div id="theme-btn" class="flex items-center gap-5 bg-[#F4F7FF] roundes-full p-4 ">
                 <img src="assets/theme-btn.png" alt="">
             </div>
-          </div>
+        </div>
     </nav>
+    <section class="my-10 grid grid-cols-5 gap-5 rounded-lg">
+        <!-- left side -->
+        <div class="rounded-lg bg-white col-span-4">
 
+            <div class="p-5 pb-8 border-b border-dashed border-gray-400 flex justify-between gap-5">
+                <div class="p-7 rounded-lg flex items-center gap-4 bg-[#F4F7FF]">
+                    <div class="bg-white rounded-full p-4">
+                        <img src="assets/checkbox.png" alt="">
+                    </div>
+                    <p class="text-lg">Task Assigned</p>
+                    <h1 id="task-ass-num" class="font-bold text-2xl">06</h1>
+                </div>
+                <div id="blog-btn"
+                    class="cursor-pointer p-7 pr-26 rounded-lg flex items-center gap-3 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8]">
+                    <img src="assets/board.png" alt="">
+                    <h1 class="text-white text-2xl">Discover Something <br />
+                        New Today!</h1>
+                </div>
+                <div>
+                    <div class="p-7 rounded-lg flex items-center gap-5 bg-[#F4F7FF]">
+                        <div class="bg-white rounded-full p-4">
+                            <img src="assets/calender.png" alt="" />
+                        </div>
+                        <div>
+                            <p id="day" class="text-lg"></p>
+                            <p id="full-date" class="font-bold text-2xl"></p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="mt-2 p-5 grid grid-cols-3 gap-5">
+                <div class="p-5 bg-[#F4F7FF] rounded-lg">
+                    <div class="pb-5 border-b border-dashed border-gray-400">
+                    <button class="bg-white p-2 rounded-lg mt-2">ShopEase</button>
+                    <h1 id="shop-ease" class="text-2xl font-bold"> Fix Mobile Button Issue</h1>
+                    </h1>
+                    <p class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500">
+                        Debug using Chrome DevTools, check for overlapping elements, and
+                        ensure onClick works properly and ensure onClick works properly
+                      </p>
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                          <p>Deadline</p>
+                          <p>21 March 2025</p>
+                        </div>
+                        <div>
+                          <button class="task-btn cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+                            Completed
+                          </button>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="p-5 bg-[#F4F7FF] rounded-lg">
+                    <div class="pb-5 border-b border-dashed border-gray-400">
+                      <button class="bg-white p-2 rounded-lg mt-2">Cloud Sync</button>
+                      <h1 id="card-title-2" class="mt-2 font-bold">Add Dark Mode</h1>
+                      <p class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500">
+                        Store the user's preference in localStorage, update CSS
+                        variables dynamically, and apply a smooth transition effect.
+                      </p>
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <p>Deadline</p>
+                        <p>21 March 2025</p>
+                      </div>
+                      <div>
+                        <button class="task-btn cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+                          Completed
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-5 bg-[#F4F7FF] rounded-lg">
+                    <div class="pb-5 border-b border-dashed border-gray-400">
+                      <button class="bg-white p-2 rounded-lg mt-2">SwiftPay</button>
+                      <h1 id="card-title-3" class="mt-2 font-bold">
+                        Optimize Home page 
+                      </h1>
+                      <p class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500">
+                        The homepage needs improvements in design, speed, and
+                        accessibility to ensure smooth navigation, optimized images, and
+                        better overall performance.
+                      </p>
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <p>Deadline</p>
+                        <p>21 March 2025</p>
+                      </div>
+                      <div>
+                        <button class="task-btn cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+                          Completed
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="p-5 bg-[#F4F7FF] rounded-lg">
+                    <div class="pb-5 border-b border-dashed border-gray-400">
+                      <button class="bg-white p-2 rounded-lg mt-2">Meta</button>
+                      <h1 id="card-title-4" class="mt-2 font-bold">Add new emoji 🤲</h1>
+                      <p class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500">
+                        A new emoji set is being introduced to enhance user expression,
+                        ensuring proper encoding and compatibility across different
+                        devices and platforms.
+                      </p>
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <p>Deadline</p>
+                        <p>21 March 2025</p>
+                      </div>
+                      <div>
+                        <button class="task-btn cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+                          Completed
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="p-5 bg-[#F4F7FF] rounded-lg">
+                    <div class="pb-5 border-b border-dashed border-gray-400">
+                      <button class="bg-white p-2 rounded-lg mt-2">Google LLC</button>
+                      <h1 id="card-title-5" class="mt-2 font-bold">
+                        Integrate OpenAI API
+                      </h1>
+                      <p class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500">
+                        OpenAI’s API is being integrated to enhance AI-driven features
+                        like chatbots, auto-suggestions, or intelligent content
+                        generation for a smarter user experience.
+                      </p>
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <p>Deadline</p>
+                        <p>21 March 2025</p>
+                      </div>
+                      <div>
+                        <button class="task-btn cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+                          Completed
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="p-5 bg-[#F4F7FF] rounded-lg">
+                    <div class="pb-5 border-b border-dashed border-gray-400">
+                      <button class="bg-white p-2 rounded-lg mt-2">Glassdoar</button>
+                      <h1 id="card-title-6" class="mt-2 font-bold">
+                        Improve Job searching
+                      </h1>
+                      <p class="bg-white p-2 rounded-lg mt-2 line-clamp-2 text-gray-500">
+                        The job search algorithm is being upgraded to provide more
+                        relevant recommendations, optimize keyword matching, and enhance
+                        filters for better job-seeking results.
+                      </p>
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <p>Deadline</p>
+                        <p>21 March 2025</p>
+                      </div>
+                      <div>
+                        <button class="task-btn cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+                          Completed
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+             <!-- right side -->
+    <div class="pt-5 bg-white col-span-1 rounded-lg">
+        <div class="flex flex-col items-center border-b border-dashed pb-5 border-gray-400 mb-3">
+          <div class="flex gap-2">
+            <img src="assets/activity.png" alt="" />
+            <p>Activity Log</p>
+          </div>
+  
+          <div class="mt-5">
+            <button id="clr-his-btn" class="cursor-pointer bg-[#3752FD] p-2 rounded-lg text-white">
+              Clear History
+            </button>
+          </div>
+        </div>
+  
+        <div id="task-complete-container">
+  
+        </div>
+        </div>
+    </section>
 </body>
 
 </html>
